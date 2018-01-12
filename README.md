@@ -9,3 +9,8 @@ Todo:
 - Parked domain metadata
 - Deploy to S3
 - Route domains to S3
+
+# Build
+
+Local: ```npm run dev```
+Package: ```npm run build```
