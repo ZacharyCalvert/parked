@@ -2,7 +2,14 @@
   <div>
     <h1>{{ msg }}</h1>
     <ul>
-      <li><a href="http://www.zachcalvert.com" target="_blank">Zach Calvert</a></li>
+      <li>Domain owned by <a href="http://www.zachcalvert.com" target="_blank">Zach Calvert</a></li>
+      <br>
+      <br>
+      <li>Code available at <a href="https://github.com/ZacharyCalvert/parked" target="_blank">GitHub</a></li>
+      <br>
+      <li>Deployed to <a href="https://aws.amazon.com/s3" target="_blank">Amazon S3</a></li>
+      <br>
+      <li>Built with <a href="https://github.com/vuejs/vue-cli" target="_blank">Vue-CLI</a></li>
       <br>
       <li>Credit for creative commons image <a href="https://commons.wikimedia.org/w/index.php?curid=1453293" target="_blank">here.</a></li>
     </ul>
@@ -11,7 +18,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Parked',
   data () {
     return {
       msg: 'You have reached a temporarily parked domain.'
