@@ -12,5 +12,6 @@ Todo:
 
 # Build
 
-Local: ```npm run dev```
-Package: ```npm run build```
+Local: ```npm run dev```   
+Package: ```npm run build```   
+For S3: ```npm run build prod``` with s3 zip available under dist
